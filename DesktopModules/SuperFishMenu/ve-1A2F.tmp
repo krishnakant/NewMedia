@@ -1,0 +1,24 @@
+<%@ Control language="C#" Inherits="Philip.Modules.SuperFishMenu.ViewSuperFishMenu" CodeFile="ViewSuperFishMenu.ascx.cs" AutoEventWireup="true"%>
+<%@ Register TagPrefix="dnn" TagName="Audit" Src="~/controls/ModuleAuditControl.ascx" %>
+
+
+<%--link to the CSS files for this menu type --%>
+<link rel="stylesheet" media="screen" href="/ssm_dnn/DesktopModules/SuperFishMenu/stylesheet/superfish.css" /> 
+ 
+<%--// link to the JavaScript files (hoverIntent is optional) --%>
+<script src="/ssm_dnn/DesktopModules/SuperFishMenu/js/hoverIntent.js"></script> 
+<script src="/ssm_dnn/DesktopModules/SuperFishMenu/js/superfish.js"></script> 
+ 
+<%--// initialise Superfish --%>
+<script> 
+ 
+    $(document).ready(function(){ 
+        $("ul.sf-menu").superfish(); 
+    }); 
+ 
+</script>
+<div>
+<ui><li>ROOT</li><li>PVCConduit</li><li>SteelConduit</li><li>HDPEConduit</li><li>PVCFITTINGS</li><li>SWEEPS</li><li>BODIES</li><li>STEELFIT</li><li>JB</li><li>EXPBOXES</li><li>FAB</li><li>CEMC</li><li>ROPE</li><li>SPLIT</li><li>ENT</li><li>UNGBOX</li><li>EMTFIT</li></ui>
+</div>
+<input id="hdnMenuHtml" type="hidden"/>
+

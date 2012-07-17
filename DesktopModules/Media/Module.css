@@ -1,0 +1,46 @@
+﻿.dnnmedia_wrapper { width:98%; }
+.dnnmedia_image { border:0px solid #ffffff; }
+.dnnmedia_left, .dnnmedia_left * { text-align:left; }
+.dnnmedia_right, .dnnmedia_right * { text-align:right; }
+.dnnmedia_center, .dnnmedia_center * { text-align:center; }
+.dnnmedia_wmp, .dnnmedia_wmp * { position:relative !important; z-index:2 !important; }
+.dnnmedia_italic { font-style: italic; }
+/*
+media options view
+*/
+.dnnmedia_textbox { width:275px; }
+
+legend, .dnnmedia-legend { margin-left:1em; color:#000000; font-weight:bold; font-size:1.2em; padding:0 5px 0 5px; }
+fieldset, .dnnmedia-fieldset { margin:1.5em 0 0 0; padding:0; }
+fieldset ol, .dnnmedia-list { padding:1em 1em 0 1em; list-style:none; }
+fieldset li, .dnnmedia-listitem { padding-bottom:1em; list-style:none; line-height:1.6em; }
+fieldset.commands { border:none; }
+
+/* labels on top */
+.dnnmedia-labeltop { display:block; }
+/* labels to the left */
+.dnnmedia-labelleft { float:left; width:14em; margin-right:1em; }
+/* labels to the right */
+.dnnmedia-labelright { float:left; width:14em; margin-right:1em; text-align:right; }
+
+.dnnmedia-url-control table { margin-left: 7em; }
+
+#divMediaCommands { margin-top:0.8em; text-align:center; }
+ul#ulMediaCommands { list-style-type:none; }
+ul#ulMediaCommands li { display:inline; margin-right:10px; }
+
+#pSupportedFileTypesLegend { margin-left:7em; }
+
+#tblMediaFileTypes { width:350px; border:1px solid #000000; margin-bottom:0.5em; margin-left:7em; }
+#tblMediaFileTypes tr td { border:1px solid #000000; padding:2px 2px 2px 6px; }
+.dnnmedia-filetype-headrow td { font-weight:bold; background-color:#c0c0c0; }
+.dnnmedia-filetype-altrow { background-color:#f0f0f0; }
+.dnnmedia-filetype-filetype { width:150px; }
+.dnnmedia-filetype-modulesupport { width: 100px; }
+.dnnmedia-filetype-hostsupport { width:100px; }
+
+.dnnmedia-hidden { display:none; }
+
+.dnnmedia-message { width:100%; margin:6px 0px 6px 15em; }
+.dnnmedia-okay { color:#006400; border:1px solid #006400; background-color:#CDFFBA; width:100%; padding:2px 2px 2px 2px; }
+.dnnmedia-error { color:#ff0000; border:1px solid #ff0000; background-color:#FFE8EF; width:100%; padding:2px 2px 2px 2px; }

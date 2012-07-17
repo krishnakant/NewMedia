@@ -1,0 +1,60 @@
+﻿/* Modify index to be clustered */
+if exists (select * from dbo.sysobjects where id = object_id(N'PK_Documents') and OBJECTPROPERTY(id, N'IsConstraint') = 1)
+	ALTER TABLE {databaseOwner}[{objectQualifier}Documents] 
+		DROP CONSTRAINT PK_Documents
+GO
+
+if not exists (select * from dbo.sysobjects where id = object_id(N'PK_{objectQualifier}Documents') and OBJECTPROPERTY(id, N'IsConstraint') = 1)
+	ALTER TABLE {databaseOwner}[{objectQualifier}Documents] 
+		ADD CONSTRAINT PK_{objectQualifier}Documents
+			PRIMARY KEY CLUSTERED (ItemId)
+GO
+
+
+/* Run second time as 04.01.00 script was missing for some users */
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}UpdateDocument') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE {databaseOwner}{objectQualifier}UpdateDocument
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}UpdateDocument
+
+@ModuleId		  INT,
+@ItemId           INT,
+@Title            nvarchar(150),
+@URL              nvarchar(250),
+@UserId           INT,
+@Category         nvarchar(50),
+@OwnedByUserID    INT,
+@SortOrderIndex   INT, 
+@Description      nvarchar(255)
+AS
+UPDATE {databaseOwner}{objectQualifier}Documents
+SET    Title             = @Title,
+       URL               = @URL,
+       Category          = @Category,
+       OwnedByUserID     = @OwnedByUserID,
+       ModifiedByUserID  = @UserId,
+       ModifiedDate      = getdate(),
+       SortOrderIndex    = @SortOrderIndex,
+       Description       = @Description
+WHERE  ItemId = @ItemId
+	AND ModuleId = @ModuleId
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}DeleteDocument]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}DeleteDocument
+GO
+
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}DeleteDocument
+	@ModuleId INT, 
+	@ItemId int
+AS
+
+DELETE FROM {objectQualifier}Documents
+WHERE  ItemId = @ItemId
+	AND ModuleId = @ModuleId
+
+GO
+
+

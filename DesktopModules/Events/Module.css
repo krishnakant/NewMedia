@@ -1,0 +1,12 @@
+﻿/* ================================
+    CSS STYLES FOR DNN Event Module 
+   ================================
+
+See Themes Subdirectory for Creating Themes that will be loaded by the Module Instance Settings
+
+*/
+#EventsCp   {border:1px solid black; background-color:#e3eefb;}
+#EventsClrs	{margin:7px; width:311px; height:63px; border-left:1px solid #000; border-top:1px solid #000; }
+.EventsClr	{float:left; width:30px;	height:30px; border-right:1px solid #000; border-bottom:1px solid #000;}
+#SelColTxt	{float:left; width:60px; height:22px; border:solid 1px #000; margin:0 7px 7px 7px; background-color:white;}
+#SelColDiv	{float:left; width:238px; height:24px; border:solid 1px #000; margin:0 7px 7px 0; background-color:white;}

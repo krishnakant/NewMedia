@@ -1,0 +1,96 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="SSM_Interest" type="Module" version="0.0.1">
+  <friendlyName>SSM_Interest</friendlyName>
+  <description>To take information for persone who have and school and that wand to be part of  school space media.</description>
+  <iconFile />
+  <owner>
+    <name>SIPL</name>
+    <organization>SIPL</organization>
+    <url />
+    <email />
+  </owner>
+  <license />
+  <releaseNotes />
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>SSM_Interest</moduleName>
+        <foldername>SSM_Interest</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>SSM_Interest</friendlyName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/SSM_Interest/ViewSSM_Interest.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+              </moduleControl>
+              <moduleControl>
+                <controlKey>Interest</controlKey>
+                <controlSrc>DesktopModules/SSM_Interest/EditSSM_Interest.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+              </moduleControl>
+              <moduleControl>
+                <controlKey>ThankYou</controlKey>
+                <controlSrc>DesktopModules/SSM_Interest/ThankYou.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\SSM_Interest</basePath>
+        <file>
+          <path>App_LocalResources</path>
+          <name>ViewSSM_Interest.ascx.resx</name>
+        </file>
+        <file>
+          <path>Images</path>
+          <name>delete.png</name>
+        </file>
+        <file>
+          <path>Images</path>
+          <name>plus.png</name>
+        </file>
+        <file>
+          <path>Images</path>
+          <name>Progress.gif</name>
+        </file>
+        <file>
+          <name>ThankYou.ascx</name>
+        </file>
+        <file>
+          <name>ThankYou.ascx.cs</name>
+        </file>
+        <file>
+          <name>ViewSSM_Interest.ascx</name>
+        </file>
+        <file>
+          <name>ViewSSM_Interest.ascx.cs</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>

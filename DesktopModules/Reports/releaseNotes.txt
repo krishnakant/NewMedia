@@ -1,0 +1,20 @@
+﻿<h3>Reports Module 5.5.0</h3>
+<p class="Contributor">
+    DotNetNuke&reg; <br />
+    <a href="mailto:support@dotnetnuke.com">support@dotnetnuke.com</a><br />
+    <a href=http://www.dotnetnuke.com>http://www.dotnetnuke.com</a><br />
+</p>
+<hr/>
+ <div class="License">
+    <h3>About the Report Module</h3>
+    <p class="Owner">
+        <b>Version 5.5.0</b><br /><br />
+        This version of the module requires DotNetNuke Core 5.4.4 or greater.<br>
+        FYI: Developers should be aware that the module uses Visual Studio 2010 only.<br>
+		The UDT Data Source is NOT compatible with Form and List Module version 5.0 or DotNetNuke 5.0, therefore it has been removed from the package.  A future version of the UDT Data Source will add support for DNN 5.0 and FnL 5.0
+    </p>
+    <ul>
+		<li>XSLT Extension Objects - CLR objects can now be provided to the XSLT Visualizer to use as XSLT Extension Objects. These objects must have a parameter-less constructor and MAY (but are not required to) implement the IXsltExtensionObject interface (found in DotNetNuke.Modules.Reports.dll) in order to receive additional context information.</li>
+		<li>Simple URL Parameter system - A simple URL parameter system has been added which allows users to provide a list of QueryString parameters which will be added to the query.  The parameter names are in the following format: @url_[QueryString Parameter Name].  Only the parameters specified in the "Allowed URL Parameters" section will be added.</li>
+	</ul>
+</div>

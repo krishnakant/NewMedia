@@ -1,0 +1,11 @@
+﻿Install\Module\Media_03.01.00_Install.resources
+Install\Module\Media_03.02.00_Install.resources
+Install\Module\Media_03.02.02_Install.resources
+Install\Module\Media_03.02.03_Install.resources
+Install\Module\Media_03.03.00_Install.resources
+DesktopModules\Media\Templates\Flash.htm
+DesktopModules\Media\Templates\Image.htm
+DesktopModules\Media\Templates\Quicktime.htm
+DesktopModules\Media\Templates\RealPlayer.htm
+DesktopModules\Media\Templates\WindowsMedia.htm
+DesktopModules\Media\Templates

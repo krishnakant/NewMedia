@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" media="screen" href="/ssm_dnn/DesktopModules/SuperFishMenu/stylesheet/superfish.css" />
+
+    <script type="text/javascript" src="/ssm_dnn/DesktopModules/SuperFishMenu/js/hoverIntent.js"></script>
+
+    <script type="text/javascript" src="/ssm_dnn/DesktopModules/SuperFishMenu/js/superfish.js"></script>
+
+    <script type="text/javascript" >
+
+
+        $(document).ready(function() {
+            $("ul.sf-menu").superfish();
+        });
+
+        //to add menu to div
+        function addMenu() {
+
+            if (document.getElementById("<%=hdnMenuHtml.ClientID%>") != null)
+                if (document.getElementById("<%=menuContainer.ClientID%>") != null) {
+                    document.getElementById("<%=menuContainer.ClientID%>").innerHTML = document.getElementById("<%=hdnMenuHtml.ClientID%>").innerHTML;
+            }
+        }
+ 
+    </script>
+
+</head>
+<body>
+    
+    <div id="menuContainer">
+    
+    testfsdfsdfdsfdsfsdf
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>EditFAQs.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>FAQs.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>FAQsCategories.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>EditFAQs.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>FAQs.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>FAQsCategories.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>Scripts/</path>
+      <name>AjaxFaq.js</name>
+    </file>
+  </files>
+</dotnetnuke>

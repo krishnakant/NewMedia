@@ -1,0 +1,234 @@
+﻿.FeedbackForm, .NarrowFeedbackForm
+{
+    padding: 4px;
+    text-align: left;
+}
+
+div.Feedback_Instructions 
+{
+    float: left;
+    clear: right;
+    font-style: italic;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+div.Feedback_SectionHead
+{
+    float: left;
+    clear: both;
+    border-bottom: solid 2px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size:14pt;
+}
+
+div.Feedback_ContactBlock
+{
+    position:relative;
+    /*border: solid 1px black;*/
+    padding: 4px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+div.Feedback_MessageBlock
+{
+    position: relative;
+    /*border: solid 1px black;*/
+    padding: 4px;
+    margin-bottom: 1px;
+    clear: both;
+}
+
+div.Feedback_FooterBlock
+{   
+    position:relative;
+    clear: both;
+    padding: 4px;
+}
+
+div.Feedback_Field 
+{
+    position: relative;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+div.FeedbackForm div.Feedback_FieldLabel
+{
+    width: 150px;
+    float: left;
+    white-space:nowrap;
+    text-align:right;
+    padding-top: 2px;
+    padding-right: 6px;
+    height: 1.5em;
+    vertical-align: top;
+}
+
+div.NarrowFeedbackForm div.Feedback_FieldLabel 
+{
+    width: 150px;
+    white-space:nowrap;
+    text-align:left;
+    padding-top: 2px;
+    padding-right: 6px;
+    height: 1.5em;
+    vertical-align: top;
+}
+
+div.FeedbackForm div.Feedback_FieldValue 
+{
+    position: relative;
+    margin-left: 150px;
+    padding-right: 25px;
+    text-align:left;
+    white-space:nowrap;
+    vertical-align:top;
+}
+
+div.NarrowFeedbackForm div.Feedback_FieldValue 
+{
+    position: relative;
+    margin-left: 0px;
+    padding-right: 25px;
+    text-align:left;
+    white-space:nowrap;
+    vertical-align:top;
+}
+
+.Feedback_ControlWidth
+{
+    width: 92%;
+}
+
+img.Feedback_Required
+{
+    border: none 0px transparent;
+    padding: 2px;
+    width:18px;
+    height:14px;
+}
+
+div img[alt~="CAPTCHA"]+div
+{
+     margin-top: 6px;
+     margin-bottom: 6px;
+}
+
+div.Feedback_Field span.NormalRed
+{
+    float: right;
+    padding-top: 1.7em;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+div.Feedback_CaptchaLabel {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+div.Feedback_CaptchaControl {
+    margin: 0px auto;
+    text-align: center;
+}
+
+div.Feedback_CaptchaControl input 
+{
+    width: 130px;
+}
+
+div.Feedback_CommandButtons
+{
+    margin: 0px auto;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size:12pt;
+    color:Black;
+    font-weight:bold;
+}
+
+div.Feedback_Confirmation 
+{
+    position:relative;
+    float: left;
+    padding: 4px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+table.Feedback_Moderation
+{
+    width: 100%;
+    border: none 0 black;
+}
+
+td.Feedback_Moderation_Grid
+{
+    vertical-align:top;
+    width:100%
+}
+
+td.Feedback_Moderation_CommandButtons
+{
+    text-align:right;
+    vertical-align:middle;
+    height: 30px
+}
+
+table.Feedback_Comments
+{
+    width: 100%;
+    border: none 0 black;
+}
+
+
+
+td.Feedback_Settings_FieldLabel {
+    width:190px;
+    white-space:nowrap;
+    text-align:right;
+}
+
+td.Feedback_Settings_Field {
+    text-align:left;
+    white-space:nowrap;
+    vertical-align:top
+}
+
+table.Feedback_FooterBlock {
+    border: none 0px transparent;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-left:-4px
+}
+
+
+
+td.Feedback_Settings_Field div.DataGrid_Container {
+     margin-top: 0;
+}
+
+.Feedback_Lists img {
+     border-width:0;
+}
+
+div.FeedbackForm a>img {display:none}
+#FeedbackContainer{width:710px; margin:0 0 0 10px; *margin:0 0 0 -8px; background:#fff; border:#E2E1E2 1px solid; display:table;
+                   
+                  padding-top:50px;
+                  padding-left:100px;
+                  padding-right:100px;
+                   
+                   
+                   }
+
+
+

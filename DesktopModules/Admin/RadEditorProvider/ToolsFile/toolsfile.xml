@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+    <modules>
+        <module name="RadEditorStatistics" dockingZone="Bottom"/>
+		<module name="RadEditorDomInspector" dockingZone="Module" enabled="true" visible="true"  />
+		<module name="RadEditorNodeInspector" dockingZone="Module" enabled="true" visible="true" />
+		<module name="RadEditorHtmlInspector" dockingZone="Module" enabled="true" visible="false"  />
+    </modules>
+
+    <tools name="MainToolbar">
+        <tool name="AjaxSpellCheck"/>
+        <tool name="FindAndReplace" shortcut="CTRL+F"/>
+        <tool name="PasteStrip"/>
+		<tool separator="true"/>
+        <tool name="Undo" shortcut="CTRL+Z"/>
+        <tool name="Redo" shortcut="CTRL+Y"/>
+		
+    </tools>
+
+    <tools name="InsertToolbar" >
+        <EditorToolStrip Name="InsertOptions" PopupHeight="250px">
+            <EditorTool Name="ImageManager" Text="Insert Media" />
+            <EditorTool Name="DocumentManager" />
+            <EditorTool Name="FlashManager" />
+            <EditorTool Name="MediaManager" />
+            <EditorTool Name="ImageMapDialog"/>
+        </EditorToolStrip>
+        <EditorToolStrip Name="TemplateOptions" PopupHeight="80px">
+            <EditorTool Name="SaveTemplate" Text="Save Template" />
+            <EditorTool Name="TemplateManager" />
+        </EditorToolStrip>
+        <tool separator="true"/>
+        <tool name="LinkManager" shortcut="CTRL+K"/>
+        <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+        <tool name="InsertCustomLink" shortcut="CTRL+ALT+K"/>
+    </tools>
+
+    <tools name="DropdownToolbar" >
+        <tool name="InsertSymbol"/>
+        <tool name="InsertTable"/>
+        <tool separator="true"/>
+        <tool name="InsertParagraph" />
+        <tool separator="true"/>
+        <tool name="ToggleScreenMode" shortcut="F11"/>
+        <tool separator="true"/>
+        <tool name="InsertDate" />
+        <tool name="InsertTime" />
+    </tools>
+
+    <tools>
+        <tool name="Bold" shortcut="CTRL+B"/>
+        <tool name="Italic" shortcut="CTRL+I"/>
+        <tool name="Underline" shortcut="CTRL+U"/>
+        <tool name="StrikeThrough" />
+        <tool name="Superscript" />
+        <tool name="Subscript" />
+        <tool separator="true"/>
+        <tool name="Indent" />
+        <tool name="Outdent" />
+        <tool separator="true"/>
+        <tool name="InsertOrderedList" />
+        <tool name="InsertUnorderedList" />
+        <tool separator="true"/>
+        <tool name="ConvertToLower" />
+        <tool name="ConvertToUpper" />
+        <tool name="InsertHorizontalRule" />
+        <tool separator="true"/>
+        <tool name="ForeColor" />
+        <tool name="BackColor" />
+		<tool name="FontSize"/>
+		<tool name="RealFontSize"/>
+		<tool separator="true"/>
+        <tool name="JustifyLeft" />
+        <tool name="JustifyCenter" />
+        <tool name="JustifyRight" />
+        <tool name="JustifyFull" />        
+    </tools>
+    <tools>
+        <tool name="FormatBlock"/>
+        <tool separator="true"/>
+        <tool name="ApplyClass"/>
+        <tool name="FormatStripper"/>
+		<tool name="FontName" />
+		<tool separator="true"/>
+		<tool name="Zoom" />
+		<tool name="ModuleManager" />
+	</tools>
+	<paragraphs>
+        <paragraph name="&lt;P>Standard Paragraph&lt;/P&gt;" value="&lt;P&gt;" />
+        <paragraph name="&lt;H1>Heading 1&lt;/H1&gt;" value="&lt;H1&gt;" />
+        <paragraph name="&lt;H2>Heading 2&lt;/H2&gt;" value="&lt;H2&gt;" />
+        <paragraph name="&lt;H3>Heading 3&lt;/H3&gt;" value="&lt;H3&gt;" />
+        <paragraph name="&lt;P style='text-align:left'>Justify Left&lt;/P&gt;" value="&lt;P style='text-align:left'&gt;" />
+        <paragraph name="&lt;P style='text-align:right'>Justify Right&lt;/P&gt;" value="&lt;P style='text-align:right'&gt;" />
+        <paragraph name="&lt;P style='text-align:center'>Justify Center&lt;/P&gt;" value="&lt;P style='text-align:center'&gt;" />
+    </paragraphs>
+	<links>
+		<link name="telerik" href="http://www.telerik.com">
+			<link name="Products" href="http://www.telerik.com/products" />
+			<link name="Purchase" href="http://www.telerik.com/purchase" />
+			<link name="Support" href="http://www.telerik.com/support" />
+			<link name="Client.Net" href="http://www.telerik.com/clientnet" />
+		</link>
+		<link name="Microsoft">
+			<link name="Main Site" href="http://www.microsoft.com" />
+			<link name="MSDN Online" href="http://msdn.microsoft.com" />
+			<link name="Windows Update" href="http://windowsupdate.microsoft.com" />
+		</link>
+		<link name="Search Engines">
+			<link name="Google" href="http://www.google.com" />
+			<link name="Yahoo" href="http://www.yahoo.com" />
+			<link name="AltaVista" href="http://www.altavista.com" />
+		</link>
+	</links>
+	<fontNames>
+		<item name="Arial" />
+		<item name="Arial Narrow" />
+		<item name="Arial Black" />
+		<item name="Arial Rounded MT Bold"/>
+		<item name="Arial Unicode MS"/>
+		<item name="Adobe Caslon Pro"/>
+		<item name="Adobe Caslon Pro Bold"/>
+		<item name="Adobe Fan Heiti Std B"/>
+		<item name="Adobe Fangsong Std R"/>
+		<item name="Adobe Garamond Pro"/>
+		<item name="Adobe Garamond Pro Bold"/>
+		<item name="Adobe Garamond Pro Bold"/>
+		<item name="Adobe Gothic Std B"/>
+		<item name="Adobe Hebrew"/>
+		<item name="Adobe Heiti Std R"/>
+		<item name="Adobe Kaiti Std R"/>
+		<item name="Adobe Myungjo Std M"/>
+		<item name="Adobe Song Std L"/>
+		<item name="Agency FB"/>
+		<item name="Aharoni"/>
+		<item name="Algerian"/>
+		<item name="Andalus"/>
+		<item name="Angsana New"/>
+		<item name="AngsanaUPC"/>
+		<item name="Aparajita"/>
+		<item name="Arabic Typesetting"/>
+		<item name="Baskerville Old Face"/>
+		<item name="Batang"/>
+		<item name="BatangChe"/>
+		<item name="Bauhaus 93"/>
+		<item name="Bell MT"/>
+		<item name="Berlin Sans FB"/>
+		<item name="Berlin Sans FB Demi"/>
+		<item name="Bernard MT Condensed"/>
+		<item name="Birch Std"/>
+		<item name="Blackadder ITC"/>
+		<item name="Blackoak Std"/>
+		<item name="Bodoni MT"/>
+		<item name="Bodoni MT Black"/>
+		<item name="Bodoni MT Condensed"/>
+		<item name="Bodoni MT Poster Compressed"/>
+		<item name="Book Antiqua"/>
+		<item name="Bookman Old Style"/>
+		<item name="Bookshelf Symbol 7"/>
+		<item name="Bradley Hand ITC"/>
+		<item name="Britannic Bold"/>
+		<item name="Broadway"/>
+		<item name="Browallia New"/>
+		<item name="BrowalliaUPC"/>
+		<item name="Brush Script MT"/>
+		<item name="Brush Script Std"/>
+		<item name="Calibri"/>
+		<item name="Californian FB"/>
+		<item name="Calisto MT"/>
+		<item name="Cambria"/>
+		<item name="Cambria Math"/>
+		<item name="Candara"/>
+		<item name="Castellar"/>
+		<item name="Centaur"/>
+		<item name="Century"/>
+		<item name="Century Gothic"/>
+		<item name="Century Schoolbook"/>
+		<item name="Chaparral Pro"/>
+		<item name="Charlemagne Std"/>
+		<item name="Chiller"/>
+		<item name="Colonna MT"/>
+		<item name="Comic Sans MS"/>
+		<item name="Consolas"/>
+		<item name="Constantia"/>
+		<item name="Cooper Black"/>
+		<item name="Cooper Std Black"/>
+		<item name="Copperplate Gothic Bold"/>
+		<item name="Copperplate Gothic Light"/>
+		<item name="Corbel"/>
+		<item name="Cordia New"/>
+		<item name="CordiaUPC"/>
+		<item name="Courier New"/>
+		<item name="Curlz MT"/>
+		<item name="DaunPenh"/>
+		<item name="David"/>
+		<item name="DFKai-SB"/>
+		<item name="DilleniaUPC"/>
+		<item name="DokChampa"/>
+		<item name="Dotum"/>
+		<item name="DotumChe"/>
+		<item name="Ebrima"/>
+		<item name="Edwardian Script ITC"/>
+		<item name="Elephant"/>
+		<item name="Eras Bold ITC"/>
+		<item name="Eras Demi ITC"/>
+		<item name="Eras Light ITC"/>
+		<item name="Eras Medium ITC"/>
+		<item name="Estrangelo Edessa"/>
+		<item name="EucrosiaUPC	"/>
+		<item name="Euphemia"/>
+		<item name="FangSong"/>
+		<item name="Felix Titling"/>
+		<item name="Footlight MT Light"/>
+		<item name="Forte"/>
+		<item name="Franklin Gothic Book"/>
+		<item name="Franklin Gothic Demi"/>
+		<item name="Franklin Gothic Demi Cond"/>
+		<item name="Franklin Gothic Heavy"/>
+		<item name="Franklin Gothic Medium"/>
+		<item name="Franklin Gothic Medium Cond"/>
+		<item name="FrankRuehl"/>
+		<item name="Freestyle Script"/>
+		<item name="French Script MT"/>
+		<item name="Gabriola"/>
+		<item name="Garamond"/>
+		<item name="Gautami"/>
+		<item name="Georgia"/>
+		<item name="Giddyup Std"/>
+		<item name="Gigi"/>
+		<item name="Gill Sans MT"/>
+		<item name="Gill Sans MT Condensed"/>
+		<item name="Gill Sans MT Ext Condensed Bold"/>
+		<item name="Gill Sans Ultra Bold"/>
+		<item name="Gill Sans Ultra Bold Condensed"/>
+		<item name="Gisha"/>
+		<item name="Gloucester MT Extra Condensed"/>
+		<item name="Goudy Old Style"/>
+		<item name="Goudy Stout"/>
+		<item name="Gulim"/>
+		<item name="GulimChe"/>
+		<item name="Gungsuh"/>
+		<item name="Haettenschweiler"/>
+		<item name="Harlow Solid Italic"/>
+		<item name="Harrington"/>
+		<item name="High Tower Text"/>
+		<item name="Hobo Std"/>
+		<item name="Impact"/>
+		<item name="Imprint MT Shadow`"/>
+		<item name="Informal Roman"/>
+		<item name="IrisUPC"/>
+		<item name="Iskoola Pota"/>
+		<item name="JasmineUPC"/>
+		<item name="Jokerman"/>
+		<item name="Juice ITC"/>
+		<item name="KaiTi"/>
+		<item name="Kalinga"/>
+		<item name="Kartika"/>
+		<item name="Khmer UI"/>
+		<item name="KodchiangUPC"/>
+		<item name="Kokila"/>
+		<item name="Kozuka Gothic Pr6N B"/>
+		<item name="Kozuka Gothic Pr6N EL"/>
+		<item name="Kozuka Gothic Pr6N H"/>
+		<item name="Kozuka Gothic Pr6N L"/>
+		<item name="Kozuka Gothic Pr6N M"/>
+		<item name="Kozuka Gothic Pr6N R"/>
+		<item name="Kozuka Gothic Pro B"/>
+		<item name="Kozuka Gothic Pro EL"/>
+		<item name="Kozuka Gothic Pro H"/>
+		<item name="Kozuka Gothic Pro L"/>
+		<item name="Kozuka Gothic Pro M"/>
+		<item name="Kozuka Gothic Pro R"/>
+        <item name="Kozuka Mincho Pr6N B"/>
+		<item name="Kozuka Mincho Pr6N EL"/>
+		<item name="Kozuka Mincho Pr6N H"/>
+		<item name="Kozuka Mincho Pr6N L"/>
+		<item name="Kozuka Mincho Pr6N M"/>
+		<item name="Kozuka Mincho Pr6N R"/>
+		<item name="Kozuka Mincho Pro B"/>
+		<item name="Kozuka Mincho Pro EL"/>
+		<item name="Kozuka Mincho Pro H"/>
+		<item name="Kozuka Mincho Pro L"/>
+		<item name="Kozuka Mincho Pro M"/>
+		<item name="Kristen ITC"/>
+		<item name="Kunstler Script"/>
+		<item name="Lao UI"/>
+		<item name="Latha"/>
+		<item name="Leelawadee"/>
+		<item name="Letter Gothic Std"/>
+		<item name="Levenim MT"/>
+	</fontNames>
+	
+	
+
+</root>

@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Philip_SSM_Gallary] DROP CONSTRAINT [FK_{objectQualifier}SSM_Gallary_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Philip_SSM_Gallary] DROP CONSTRAINT [PK_{objectQualifier}Philip_SSM_Gallary]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}Philip_SSM_Gallary].[IX_{objectQualifier}Philip_SSM_Gallary]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}Philip_SSM_Gallary]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}Philip_GetSSM_Gallarys]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}Philip_GetSSM_Gallary]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}Philip_AddSSM_Gallary]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}Philip_UpdateSSM_Gallary]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}Philip_DeleteSSM_Gallary]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

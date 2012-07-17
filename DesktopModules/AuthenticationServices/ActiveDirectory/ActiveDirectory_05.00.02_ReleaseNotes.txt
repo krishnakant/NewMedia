@@ -1,0 +1,10 @@
+Required minimum DotNetNuke version: 05.01.00<br/><br/>
+This is the third release of the Active Directory provider for DNN 5.<br/><br/>
+
+The provider requires Full Trust in order to operate.<br/><br/>
+
+Changes/Fixes for this release:<br/>
+Updated to match the 01.00.06 version for DNN 4.<br/><br/>
+Fixed a login problem if the user had been previously deleted.<br/><br/>
+
+A complete list of changes can be found in Gemini at http://support.dotnetnuke.com/project/ChangeLog.aspx?PROJID=28

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <modules>
+        <module name="RadEditorStatistics" dockingZone="Bottom"/>
+		<module name="RadEditorDomInspector" dockingZone="Module" enabled="true" visible="true" dockable="true" />
+		<module name="RadEditorNodeInspector" dockingZone="Module" enabled="true" visible="false" dockable="true" />
+		<module name="RadEditorHtmlInspector" dockingZone="Module" enabled="true" visible="false" dockable="true" />
+    </modules>
+    <tools name="MainToolbar">
+        <tool name="AjaxSpellCheck"/>
+        <tool name="FindAndReplace" shortcut="CTRL+F"/>
+        <tool name="PasteStrip"/>
+		<tool separator="true"/>
+        <tool name="Undo" shortcut="CTRL+Z"/>
+        <tool name="Redo" shortcut="CTRL+Y"/>
+		<tool name="ApplySizeColor" Text="Apply Size and Color" />
+   </tools>
+    <tools name="InsertToolbar" >
+        <EditorToolStrip Name="InsertOptions" PopupHeight="250px">
+            <EditorTool Name="ImageManager" Text="Insert Media" />
+            <EditorTool Name="DocumentManager" />
+            <EditorTool Name="FlashManager" />
+            <EditorTool Name="MediaManager" />
+            <EditorTool Name="ImageMapDialog"/>
+        </EditorToolStrip>
+        <EditorToolStrip Name="TemplateOptions" PopupHeight="80px">
+            <EditorTool Name="SaveTemplate" Text="Save Template" />
+            <EditorTool Name="TemplateManager" />
+        </EditorToolStrip>
+        <tool separator="true"/>
+        <tool name="LinkManager" shortcut="CTRL+K"/>
+        <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+        <tool name="InsertCustomLink" shortcut="CTRL+ALT+K"/>
+    </tools>
+
+    <tools name="DropdownToolbar" >
+        <tool name="InsertSymbol"/>
+        <tool name="InsertTable"/>
+        <tool separator="true"/>
+        <tool name="InsertParagraph" />
+        <tool separator="true"/>
+        <tool name="ToggleScreenMode" shortcut="F11"/>
+        <tool separator="true"/>
+        <tool name="InsertDate" />
+        <tool name="InsertTime" />
+    </tools>
+    <tools>
+		<tool name="Bold" shortcut="CTRL+B"/>
+        <tool name="Italic" shortcut="CTRL+I"/>
+        <tool name="Underline" shortcut="CTRL+U"/>
+	    <tool name="StrikeThrough" />
+        <tool name="Superscript" />
+        <tool name="Subscript" />
+        <tool separator="true"/>
+        <tool name="Indent" />
+        <tool name="Outdent" />
+        <tool separator="true"/>
+        <tool name="InsertOrderedList" />
+        <tool name="InsertUnorderedList" />
+        <tool separator="true"/>
+        <tool name="ConvertToLower" />
+        <tool name="ConvertToUpper" />
+        <tool name="InsertHorizontalRule" />
+        <tool separator="true"/>
+        <tool name="ForeColor" />
+        <tool name="BackColor" />
+		<tool name="FontSize" />
+		<tool separator="true"/>
+        <tool name="JustifyLeft" />
+        <tool name="JustifyCenter" />
+        <tool name="JustifyRight" />
+        <tool name="JustifyFull" />        
+    </tools>
+    <tools>
+        <tool name="FormatBlock"/>
+        <tool separator="true"/>
+        <tool name="ApplyClass"/>
+        <tool name="FormatStripper"/>
+		<tool name="FontName" />
+    </tools>
+	<tools name="EnhancedEditToolbar" dockingZone="Bottom" dockable="true" enabled="true">
+		<tool name="ToggleScreenMode" />
+		<tool name="ToggleTableBorder" />
+		<tool name="Zoom" />
+		<!--<tool name="ModuleManager" />-->
+		<tool separator="true"/>
+		<tool name="Zoom" />
+		<tool name="ModuleManager" />
+			
+	</tools>
+	
+	<links>
+		<link name="telerik" href="http://www.telerik.com">
+			<link name="Products" href="http://www.telerik.com/products" />
+			<link name="Purchase" href="http://www.telerik.com/purchase" />
+			<link name="Support" href="http://www.telerik.com/support" />
+			<link name="Client.Net" href="http://www.telerik.com/clientnet" />
+		</link>
+		<link name="Microsoft">
+			<link name="Main Site" href="http://www.microsoft.com" />
+			<link name="MSDN Online" href="http://msdn.microsoft.com" />
+			<link name="Windows Update" href="http://windowsupdate.microsoft.com" />
+		</link>
+		<link name="Search Engines">
+			<link name="Google" href="http://www.google.com" />
+			<link name="Yahoo" href="http://www.yahoo.com" />
+			<link name="AltaVista" href="http://www.altavista.com" />
+		</link>
+	</links>
+	
+	
+</root>

@@ -1,0 +1,76 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>download.ashx</name>
+    </file>
+    <file>
+      <path />
+      <name>EditXml.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>License.htm</name>
+    </file>
+    <file>
+      <path />
+      <name>module.css</name>
+    </file>
+    <file>
+      <path />
+      <name>XmlModule.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>EditXml.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>XmlModule.ascx.resx</name>
+    </file>
+    <file>
+      <path>Parameters/</path>
+      <name>ParameterEditor.ascx</name>
+    </file>
+    <file>
+      <path>Parameters/App_LocalResources/</path>
+      <name>ParameterEditor.ascx.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/File/</path>
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/File/App_LocalResources/</path>
+      <name>Provider.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/File/App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/HttpRequest/</path>
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/HttpRequest/App_LocalResources/</path>
+      <name>Provider.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlDataProvider/HttpRequest/App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlRenderingProvider/XslCompiledTransform/</path>
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path>Providers/XmlRenderingProvider/XslCompiledTransform/App_LocalResources/</path>
+      <name>Provider.resx</name>
+    </file>
+    <file>
+      <path>Providers/XmlRenderingProvider/XslCompiledTransform/App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+  </files>
+</dotnetnuke>
